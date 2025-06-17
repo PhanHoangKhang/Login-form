@@ -325,8 +325,11 @@ a:hover {
     }
     .footer_content {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
         padding: 25px 0;
+    }
+    .content h3 {
+        text-align: center;
     }
     .hamburger {
         display: block;
@@ -339,7 +342,7 @@ a:hover {
         flex-direction: column;
         background-color: var(--blue-color);
         display: none;
-        padding: 10px;
+        padding: 10px 0;
         width: 100%;
         position: absolute; 
         top: 100%; 
