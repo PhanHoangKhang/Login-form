@@ -362,7 +362,7 @@ a:hover {
 }
 @media screen and (max-width: 600px) {
     .log-in {
-        width: 360px;
+        width: 380px;
     }
 }
 @media screen and (max-height: 1080px) {
