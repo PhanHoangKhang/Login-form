@@ -320,6 +320,9 @@ a:hover {
     }
 }
 @media screen and (max-width: 805px) {
+    body {
+        overflow-x: hidden;
+    }
     .footer_content {
         flex-direction: column;
         text-align: center;
@@ -330,7 +333,7 @@ a:hover {
         font-size: 30px;
         color: white;
         cursor: pointer;
-        margin: 10px;
+        margin-right: 10px;
     }
     .nav_bar {
         flex-direction: column;
@@ -338,11 +341,11 @@ a:hover {
         display: none;
         padding: 10px;
         width: 100%;
-        z-index: 99;
         position: absolute; 
         top: 100%; 
         left: 0;
         border-radius: 3px;
+        align-items: center;
     }
     .nav_bar.show {
         display: flex;
@@ -355,9 +358,6 @@ a:hover {
     }
     .nav_bar a {
         padding: 7px;
-    }
-    .nav_bar {
-        align-items: center;
     }
 }
 @media screen and (max-width: 600px) {
