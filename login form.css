@@ -247,6 +247,7 @@ a:hover {
     text-align: center;
     padding: 13px 0px;
 }
+/*Add Responsive*/
 @media screen and (max-width: 1210px) {
     header {
         padding: 20px  8%;
@@ -280,9 +281,9 @@ a:hover {
         font-size: 33px;
     }
 }
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1050px) {
     .logo {
-        font-size: 20px;
+        font-size: 19px;
         margin-top: 8px;
     }
     .nav_bar a {
